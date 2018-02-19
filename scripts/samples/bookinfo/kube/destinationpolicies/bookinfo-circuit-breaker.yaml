@@ -4,7 +4,7 @@ metadata:
   name: bookinfo-circuit-breaker
 spec:
   destination:
-    name: details
+    name: reviews
     labels:
       version: v1
   circuitBreaker:
